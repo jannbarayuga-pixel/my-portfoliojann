@@ -9199,3 +9199,22 @@ body.tax-product_cat #dsn_header {
 .our-work.work-massonary .d-grid.grid-md-3 .img-right img {
   border-radius: 15px;
 }
+/* Mobile & Tablet Responsiveness */
+@media screen and (max-width: 768px) {
+  .grid, .portfolio-grid, .work-grid, .row {
+    display: flex !important;
+    flex-direction: column !important;
+    grid-template-columns: 1fr !important;
+    gap: 20px !important;
+  }
+
+  img, video, iframe {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  body, .container, .main-root {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}
