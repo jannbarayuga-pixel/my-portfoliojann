@@ -1,0 +1,165 @@
+/* Custom Teal Slider with Rounded Edges */
+.dsn-custom-slider {
+    position: relative;
+    width: 100%;
+    margin: 50px 0;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.dsn-custom-slider .swiper-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.dsn-custom-slider .swiper-slide {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+    position: relative;
+}
+
+.dsn-custom-slider .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.dsn-custom-slider .swiper-pagination {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+}
+
+.dsn-custom-slider .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    opacity: 1;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.dsn-custom-slider .swiper-pagination-bullet-active {
+    background-color: #00CED1;
+    width: 30px;
+    border-radius: 10px;
+}
+
+.dsn-custom-slider .swiper-button-next,
+.dsn-custom-slider .swiper-button-prev {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 206, 209, 0.8);
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.dsn-custom-slider .swiper-button-next:hover,
+.dsn-custom-slider .swiper-button-prev:hover {
+    background-color: rgba(0, 206, 209, 1);
+    transform: scale(1.1);
+}
+
+.dsn-custom-slider .swiper-button-next:after,
+.dsn-custom-slider .swiper-button-prev:after {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Caption styling */
+.dsn-custom-slider .slide-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+    color: #fff;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    transform: translateY(100%);
+    transition: transform 0.5s ease;
+}
+
+.dsn-custom-slider .swiper-slide-active .slide-caption {
+    transform: translateY(0);
+    transition-delay: 0.3s;
+}
+
+.dsn-custom-slider .slide-caption h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.dsn-custom-slider .slide-caption p {
+    font-size: 16px;
+    margin: 0;
+    opacity: 0.8;
+}
+
+/* Progress bar styling */
+.dsn-custom-slider .swiper-progress-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: rgba(255, 255, 255, 0.3);
+    z-index: 10;
+}
+
+.dsn-custom-slider .swiper-progress-bar .progress {
+    height: 100%;
+    width: 0;
+    background-color: #00CED1;
+    transition: width 0.1s linear;
+}
+
+/* Custom overlay */
+.dsn-custom-slider .slide-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 206, 209, 0.2);
+    border-radius: 15px;
+    pointer-events: none;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 767px) {
+    .dsn-custom-slider .swiper-button-next,
+    .dsn-custom-slider .swiper-button-prev {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .dsn-custom-slider .slide-caption {
+        padding: 15px;
+    }
+    
+    .dsn-custom-slider .slide-caption h3 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    
+    .dsn-custom-slider .slide-caption p {
+        font-size: 14px;
+    }
+} 

@@ -1,0 +1,146 @@
+/**
+ * Responsive fixes for work and portfolio sections
+ * Specifically addressing mobile display issues
+ */
+
+/* === Work Section Mobile Fixes === */
+@media only screen and (max-width: 767px) {
+    /* Add margin to work section images */
+    .our-work.work-massonary .d-grid.grid-md-3 > div {
+        margin-top: 15px !important;
+        margin-bottom: 15px !important;
+    }
+    
+    /* Ensure proper spacing around images */
+    .our-work.work-massonary .d-grid.grid-md-3 .img-left,
+    .our-work.work-massonary .d-grid.grid-md-3 .img-center,
+    .our-work.work-massonary .d-grid.grid-md-3 .img-right {
+        padding: 10px 0;
+    }
+    
+    /* Improve image display */
+    .our-work.work-massonary .d-grid.grid-md-3 .cover-bg-img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    
+    /* Center the name "Garvit Sharma" in header on mobile */
+    .header-personal .ah-headline.title-lg {
+        justify-content: center !important;
+        text-align: center !important;
+        width: 100% !important;
+    }
+}
+
+/* For even smaller screens */
+@media only screen and (max-width: 575px) {
+    /* Reduce margins slightly for smaller screens */
+    .our-work.work-massonary .d-grid.grid-md-3 > div {
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+}
+
+/* === Portfolio Section Mobile Fixes === */
+@media only screen and (max-width: 767px) {
+    /* Reset grid properties to make items visible */
+    .work-massonary-grid .dsn-posts.dsn-isotope {
+        display: block !important;
+    }
+    
+    /* Portfolio item adjustments with minimal overrides */
+    .work-massonary-grid .dsn-item-post {
+        width: 100% !important;
+        margin: 20px 0 !important;
+    }
+    
+    /* Make images visible with proper display */
+    .work-massonary-grid .dsn-item-post .box-image-bg {
+        height: auto !important;
+        position: relative !important;
+        overflow: hidden !important;
+        aspect-ratio: 1/1;
+        padding-bottom: 0 !important;
+    }
+    
+    /* Ensure images appear correctly - without absolute positioning */
+    .work-massonary-grid .dsn-item-post .box-image-bg img {
+        position: relative !important;
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        display: block !important;
+    }
+    
+    /* Ensure play buttons remain visible */
+    .work-massonary-grid .dsn-item-post .play-button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+    }
+}
+
+/* For even smaller screens */
+@media only screen and (max-width: 575px) {
+    /* Make portfolio items smaller on very small screens */
+    .work-massonary-grid .dsn-item-post {
+        margin: 15px 0 !important;
+    }
+}
+
+/* Center "Check More" button across all devices */
+.work-massonary-grid .dsn-container .dsn-btn.dsn-btn-shape {
+    margin: 30px auto !important;
+    display: table !important;
+}
+
+/* More specific targeting for the name */
+@media only screen and (max-width: 767px) {
+    #hero_title h1.ah-headline {
+        justify-content: center !important;
+        text-align: center !important;
+        width: 100% !important;
+        display: block !important;
+        margin: 0 auto !important;
+    }
+    
+    /* Target the text elements directly to ensure proper centering */
+    #hero_title h1.ah-headline span,
+    #hero_title h1.ah-headline .ah-words-wrapper,
+    #hero_title h1.title-lg {
+        text-align: center !important;
+        display: block !important;
+        width: 100% !important;
+    }
+    
+    /* Remove any fixed width or margins that might be causing alignment issues */
+    #hero_title h1.ah-headline .ah-words-wrapper {
+        margin: 0 auto !important;
+        padding: 0 !important;
+        position: relative !important;
+    }
+    
+    /* Force center alignment for the name container */
+    #dsn_header #hero_title {
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+    }
+}
+
+/* === Testimonial Section Styling === */
+/* Glassmorphism effect for testimonial container across all devices */
+.testimonal-p .container .content .background-main {
+    background: rgba(255, 255, 255, 0.1) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.18) !important;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37) !important;
+    border-radius: 10px !important;
+} 

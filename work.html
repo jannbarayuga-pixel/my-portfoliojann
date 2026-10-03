@@ -1,0 +1,757 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/img/jann.png">
+
+    <title>Portfolio • Jann Noriel Barayuga</title>
+
+    <link href="assets/css/plugins.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/custom-scrollbar.css">
+    <link rel="stylesheet" href="assets/css/responsive-fixes.css">
+</head>
+
+<body class="v-dark dsn-ajax">
+
+    <div id="dsn_preloader" class="preloader">
+        <div class="dsnload p-absolute">
+            <span class="dsnload__row">
+                <span class="dsnload__img">
+                    <img src="assets/img/logo-light.png" class="logo-dark" alt="mexdot" decoding="async" loading="lazy" />
+                    <img src="assets/img/logo.png" class="logo-light" alt="mexdot" decoding="async" loading="lazy" />
+                </span>
+            </span>
+            <span class="dsnload__row dsnload__row--sibling">
+                <span class="dsnload__img">
+                    <img src="assets/img/logo-light.png" class="logo-dark" alt="mexdot" decoding="async" loading="lazy" />
+                    <img src="assets/img/logo.png" class="logo-light" alt="mexdot" decoding="async" loading="lazy" />
+                </span>
+            </span>
+            <span class="dsnload__row dsnload__row--sibling">
+                <span class="dsnload__img">
+                    <img src="assets/img/logo-light.png" class="logo-dark" alt="mexdot" decoding="async" loading="lazy" />
+                    <img src="assets/img/logo.png" class="logo-light" alt="mexdot" decoding="async" loading="lazy" />
+                </span>
+            </span>
+            <span class="dsnload__row dsnload__row--sibling">
+                <span class="dsnload__img">
+                    <img src="assets/img/logo-light.png" class="logo-dark" alt="mexdot" decoding="async" loading="lazy" />
+                    <img src="assets/img/logo.png" class="logo-light" alt="mexdot" decoding="async" loading="lazy" />
+                </span>
+            </span>
+        </div>
+
+        <div class="logo-box v-middle">
+            <h3 class="title text-upper">Jann Noriel Barayuga</h3>
+        </div>
+
+        <div class="loading-count">
+            <p>0</p>
+        </div>
+
+        <span class="loading-text text-uppercase mt-30 dsn-container">Loading ...</span>
+        <div class="bg-load background-section d-flex align-items-end dsn-bg-pattern bg-offset bg-square">
+            <svg class="dsn-separator-bottom dsn-icon-assistant-color" width="100%" height="100%" viewBox="0 0 100 10" preserveAspectRatio="none">
+                <path class="path-anim separator__path" data-dsn-to="M 0 0 C 40 0 55 0 100 0 L 0 0 Z" vector-effect="non-scaling-stroke" d="M 0 0 C 40 16 75 10 100 0 L 0 0 Z"></path>
+            </svg>
+        </div>
+    </div>
+
+    <svg width="0" height="0" class="p-absolute hidden">
+        <defs>
+            <filter id="buttonFilter">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur"></feGaussianBlur>
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="buttonFilter"></feColorMatrix>
+                <feComposite in="SourceGraphic" in2="buttonFilter" operator="atop"></feComposite>
+                <feBlend in="SourceGraphic" in2="buttonFilter"></feBlend>
+            </filter>
+        </defs>
+    </svg>
+
+    <main id="main_root" class="main-root">
+
+        <!-- ========== Menu ========== -->
+        <header id="site_menu_header" class="site-header d-none">
+            <div class="main-logo">
+                <a href="index.html" class="custom-logo-link main-brand" style="font-family: 'Antonio', sans-serif; font-size: 22px; font-weight: 700; color: #ffffff; letter-spacing: 2px; text-decoration: none; text-transform: uppercase;">
+                    My Portfolio
+                </a>
+            </div>
+            <nav class="main-navigation">
+                <div class="menu-cover-title header-container dsn-container">MENU</div>
+                <ul id="dsn-primary-list" class="primary-nav h2">
+                    <li class="nav-item">
+                        <a title="Home" href="index.html"><span class="overflow">Home</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a title="Works" href="work.html"><span class="overflow">Works</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a title="About" href="about.html"><span class="overflow">About</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a title="Contact" href="contact.html"><span class="overflow">Contact</span></a>
+                    </li>
+                </ul>
+
+                <div class="container-content d-flex flex-column justify-content-center section-margin">
+                    <div class="nav__info">
+                        <div class="nav-content">
+                            <h5 class="sm-title-block mb-10">Studio</h5>
+                            Quezon City, Philippines
+                        </div>
+                        <div class="nav-content mt-30">
+                            <h5 class="sm-title-block mb-10">Contact</h5>
+                            <p class="links over-hidden mb-1">
+                                <a class="link-hover d-block" href="tel:+639933747287" data-hover-text="+63 993 374 7287">+63 993 374 7287</a>
+                            </p>
+                            <p class="links over-hidden">
+                                <a class="link-hover" href="mailto:jannnorielbarayuga@gmail.com" data-hover-text="jannnorielbarayuga@gmail.com">jannnorielbarayuga@gmail.com</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="nav-social nav-content mt-30">
+                        <div class="nav-social-inner p-relative">
+                            <h5 class="sm-title-block mb-10">Follow us</h5>
+                            <div class="social-box d-flex align-items-center">
+                                <ul class="dsn-socials box-social">
+                                    <li>
+                                        <a href="https://github.com/jannbarayuga-pixel" target="_blank" class="background-main">
+                                            <i class="fab fa-github" aria-hidden="true"></i> <span>GH</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/jyelly22/" target="_blank" class="background-main">
+                                            <i class="fab fa-instagram" aria-hidden="true"></i> <span>IN</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://t.me/HPCEditz" target="_blank" class="background-main">
+                                            <i class="fab fa-telegram" aria-hidden="true"></i> <span>TG</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div id="navbar_toggle" class="navbar-toggle">
+                <div class="toggle-icon">
+                    <div class="toggle-line"></div>
+                    <div class="toggle-line"></div>
+                    <div class="toggle-line"></div>
+                </div>
+                <div class="toggle-text">
+                    <div class="text-menu">Menu</div>
+                    <div class="text-open">Open</div>
+                    <div class="text-close">Close</div>
+                </div>
+            </div>
+            <div class="bg-load background-main"></div>
+
+            <svg width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none" class="bg-load dsn-svg-transition">
+                <path vector-effect="non-scaling-stroke" d="M 0 100 V 100 Q 50 100 100 100 V 100 z" />
+            </svg>
+        </header>
+        <!-- ========== End Menu ========== -->
+
+        <div id="dsn-scrollbar">
+
+            <!-- ========== Header ========== -->
+            <header class="header-page dsn-header-animation pb-60 pt-section p-relative">
+                <div class="p-relative container pb-80 pt-80 dsn-hero-parallax-title h-100">
+                    <div class="p-relative d-flex align-items-center w-100 h-100">
+                        <div class="box-content w-100 text-center z-index-1">
+                            <h1 class="title text-upper">My Portfolio</h1>
+                            <div class="breadcrumbs mt-30">
+                                <a class="text-upper" href="index.html">Home</a>
+                                <span class="breadcrumbs_delimiter"></span>
+                                <span class="theme-color text-upper">Portfolio Showcase</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-head w-100 p-relative mt-80 z-index-2">
+                    <div class="dsn-container d-flex justify-content-between">
+                        <div class="dsn-btn dsn-btn-shape rotate-icon d-flex">
+                            <a class="button v-dark background-section" href="#">
+                                <span class="title-btn text-upper p-relative z-index-1 heading-color" data-animate-text="Scroll Down">
+                                    <span>Scroll Down</span>
+                                </span>
+                            </a>
+                            <span class="icon v-dark background-section">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                    <path d="M328 96h24v288h-48V177.9L81 401l-17 17-33.9-34 17-17 223-223H64V96h264z"></path>
+                                </svg>
+                            </span>
+                        </div>
+
+                        <div class="social-box d-flex align-items-center">
+                            <ul class="dsn-socials box-social">
+                                <li>
+                                    <a href="https://github.com/jannbarayuga-pixel" target="_blank" class="background-section">
+                                        <i class="fab fa-github" aria-hidden="true"></i> <span>GH</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/jyelly22/" target="_blank" class="background-section">
+                                        <i class="fab fa-instagram" aria-hidden="true"></i> <span>IN</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://t.me/HPCEditz" target="_blank" class="background-section">
+                                        <i class="fab fa-telegram" aria-hidden="true"></i> <span>TG</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- ========== End Header ========== -->
+
+            <div id="page_wrapper" class="wrapper">
+
+                <!-- ========== Portfolio ========== -->
+                <div class="p-relative work-massonary-grid mb-section">
+                    <div class="p-relative">
+                        <div class="root-posts has-filter">
+
+                            <div class="dsn-filtering z-index-1 p-relative w-100 mb-70 pt-50 pb-50 background-section">
+                                <div class="filtering-t w-100">
+                                    <div class="filtering-wrap w-100">
+                                        <div class="filtering w-100 d-flex align-items-center justify-content-center">
+                                            <div class="dsn-container">
+                                                <button class="active" data-filter="*" type="button">All</button>
+                                                <button type="button" class="dsn-filter-category-production" data-filter=".brand , .category-brand">Short-form</button>
+                                                <button type="button" class="dsn-filter-category-photography" data-filter=".photography , .category-photography">UGC Ads</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="section-title mb-70 d-flex flex-column align-items-center text-center">
+                                <h2 class="title dsn-fill">Creative portfolio <br>and video showcase</h2>
+                            </div>
+
+                            <div class="dsn-container">
+                                <div class="dsn-posts hover-box-item d-grid grid-lg-3 dsn-isotope use-filter" data-dsn-gap="30px">
+
+                                    <!-- Item 1: AI Video Ad Short -->
+                                    <article class="dsn-item-post grid-item over-hidden p-relative brand fashion">
+                                        <div class="box-image-bg has-border-radius w-100 h-v-70 over-hidden before-z-index">
+                                            <div class="cat background-main d-flex p-absolute top-0 right-0">
+                                                <svg class="top-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve">
+                                                    <path d="M98.1 0h1.9v51.9h-1.9c0-27.6-22.4-50-50-50V0h50z"></path>
+                                                </svg>
+                                                <svg class="bottom-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve">
+                                                    <path d="M98.1 0h1.9v51.9h-1.9c0-27.6-22.4-50-50-50V0h50z"></path>
+                                                </svg>
+                                                <span class="background-section heading-color">2025</span>
+                                            </div>
+                                            <a href="https://drive.google.com/file/d/1gmRVOnH-ssF4hr_8IbcSSdz_U5n3IBT7/view?usp=drive_link" class="play-btn-wrapper" target="_blank">
+                                                <img src="assets/img/thumbnails/1.jpg" class="cover-bg-img" alt="AI Video" />
+                                                <div class="play-button">
+                                                    <div class="play-icon">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="36px" height="36px">
+                                                            <path d="M8 5v14l11-7z" />
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="post-content mt-20 p-relative z-index-1 d-flex flex-column">
+                                            <div class="post-info d-flex justify-content-between">
+                                                <div>
+                                                    <div class="cat d-flex p-0 mb-5">
+                                                        <span class="background-section heading-color">Short-form</span>
+                                                        <span class="background-section heading-color">AI Ad</span>
+                                                    </div>
+                                                    <h2 class="post-title word-wrap d-inline-block title-block">
+                                                        <a href="https://drive.google.com/file/d/1gmRVOnH-ssF4hr_8IbcSSdz_U5n3IBT7/view?usp=drive_link" class="effect-ajax init-color" target="_blank">AI Video Ad <br> Short <span class="fw-200">© 2025</span></a>
+                                                    </h2>
+                                                </div>
+
+                                                <a href="https://drive.google.com/file/d/1gmRVOnH-ssF4hr_8IbcSSdz_U5n3IBT7/view?usp=drive_link" class="dsn-btn dsn-btn-shape effect-ajax d-flex align-items-end mr-20" target="_blank">
+                                                    <span class="icon background-section v-light">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                                            <path d="M328 96h24v288h-48V177.9L81 401l-17 17-33.9-34 17-17 223-223H64V96h264z"></path>
+                                                        </svg>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </article>
+
+                                    <!-- Item 2: Instagram Social -->
+                                    <article class="dsn-item-post grid-item over-hidden p-relative brand social">
+                                        <div class="box-image-bg has-border-radius w-100 h-v-70 over-hidden before-z-index">
+                                            <div class="cat background-main d-flex p-absolute top-0 right-0">
+                                                <svg class="top-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve">
+                                                    <path d="M98.1 0h1.9v51.9h-1.9c0-27.6-22.4-50-50-50V0h50z"></path>
+                                                </svg>
+                                                <svg class="bottom-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve">
+                                                    <path d="M98.1 0h1.9v51.9h-1.9c0-27.6-22.4-50-50-50V0h50z"></path>
+                                                </svg>
+                                                <span class="background-section heading-color">2025</span>
+                                            </div>
+                                            <a href="https://www.instagram.com/jyelly22/" class="play-btn-wrapper" target="_blank">
+                                                <img src="assets/img/thumbnails/7.jpg" class="cover-bg-img" alt="Instagram Profile" />
+                                                <div class="play-button">
+                                                    <div class="play-icon">
+                                                        <i class="fab fa-instagram" aria-hidden="true" style="font-size: 24px; color: white;"></i>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="post-content mt-20 p-relative z-index-1 d-flex flex-column">
+                                            <div class="post-info d-flex justify-content-between">
+                                                <div>
+                                                    <div class="cat d-flex p-0 mb-5">
+                                                        <span class="background-section heading-color">Social</span>
+                                                        <span class="background-section heading-color">Instagram</span>
+                                                    </div>
+                                                    <h2 class="post-title word-wrap d-inline-block title-block">
+                                                        <a href="https://www.instagram.com/jyelly22/" class="effect-ajax init-color" target="_blank">Check more <br> on insta <span class="fw-200">© 2025</span></a>
+                                                    </h2>
+                                                </div>
+
+                                                <a href="https://www.instagram.com/jyelly22/" class="dsn-btn dsn-btn-shape effect-ajax d-flex align-items-end mr-20" target="_blank">
+                                                    <span class="icon background-section v-light">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                                            <path d="M328 96h24v288h-48V177.9L81 401l-17 17-33.9-34 17-17 223-223H64V96h264z"></path>
+                                                        </svg>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </article>
+
+                                    <!-- Item 3: Fashion AD -->
+                                    <article class="dsn-item-post grid-item over-hidden p-relative sports photography">
+                                        <div class="box-image-bg has-border-radius w-100 over-hidden before-z-index">
+                                            <div class="cat background-main d-flex p-absolute top-0 right-0">
+                                                <svg class="top-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve">
+                                                    <path d="M98.1 0h1.9v51.9h-1.9c0-27.6-22.4-50-50-50V0h50z"></path>
+                                                </svg>
+                                                <svg class="bottom-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve">
+                                                    <path d="M98.1 0h1.9v51.9h-1.9c0-27.6-22.4-50-50-50V0h50z"></path>
+                                                </svg>
+                                                <span class="background-section heading-color">2025</span>
+                                            </div>
+                                            <a href="https://drive.google.com/file/d/1EzZMiRaiVrEMxADeb5hwY_pcMoGsatTW/view?usp=drive_link" class="play-btn-wrapper" target="_blank">
+                                                <img src="assets/img/thumbnails/2.jpg" class="cover-bg-img" alt="Fashion Ad" />
+                                                <div class="play-button">
+                                                    <div class="play-icon">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="36px" height="36px">
+                                                            <path d="M8 5v14l11-7z" />
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="post-content mt-20 p-relative z-index-1 d-flex flex-column">
+                                            <div class="post-info d-flex justify-content-between">
+                                                <div>
+                                                    <div class="cat d-flex p-0 mb-5">
+                                                        <span class="background-section heading-color">Fashion</span>
+                                                        <span class="background-section heading-color">Montage</span>
+                                                    </div>
+                                                    <h2 class="post-title word-wrap d-inline-block title-block">
+                                                        <a href="https://www.youtube.com/watch?v=ysz5S6PUM-U" class="effect-ajax init-color" target="_blank">Fashion <br> AD <span class="fw-200">© 2025</span></a>
+                                                    </h2>
+                                                </div>
+
+                                                <a href="https://www.youtube.com/watch?v=ysz5S6PUM-U" class="dsn-btn dsn-btn-shape effect-ajax d-flex align-items-end mr-20" target="_blank">
+                                                    <span class="icon background-section v-light">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                                            <path d="M328 96h24v288h-48V177.9L81 401l-17 17-33.9-34 17-17 223-223H64V96h264z"></path>
+                                                        </svg>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </article>
+
+                                    <!-- Item 4: Talking-Head Product Review -->
+                                    <article class="dsn-item-post grid-item over-hidden p-relative fashion photography">
+                                        <div class="box-image-bg has-border-radius w-100 h-v-60 over-hidden before-z-index">
+                                            <div class="cat background-main d-flex p-absolute top-0 right-0">
+                                                <svg class="top-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve">
+                                                    <path d="M98.1 0h1.9v51.9h-1.9c0-27.6-22.4-50-50-50V0h50z"></path>
+                                                </svg>
+                                                <svg class="bottom-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve">
+                                                    <path d="M98.1 0h1.9v51.9h-1.9c0-27.6-22.4-50-50-50V0h50z"></path>
+                                                </svg>
+                                                <span class="background-section heading-color">2025</span>
+                                            </div>
+                                            <a href="https://drive.google.com/file/d/1DEYC7L8ADZCBdzt4RpYmJiqhD2SZTVve/view?usp=drive_link" class="play-btn-wrapper" target="_blank">
+                                                <img src="assets/img/thumbnails/3.jpg" class="cover-bg-img" alt="Nature Ad" />
+                                                <div class="play-button">
+                                                    <div class="play-icon">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="36px" height="36px">
+                                                            <path d="M8 5v14l11-7z" />
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="post-content mt-20 p-relative z-index-1 d-flex flex-column">
+                                            <div class="post-info d-flex justify-content-between">
+                                                <div>
+                                                    <div class="cat d-flex p-0 mb-5">
+                                                        <span class="background-section heading-color">Tech Review</span>
+                                                        <span class="background-section heading-color">Influencer</span>
+                                                    </div>
+                                                    <h2 class="post-title word-wrap d-inline-block title-block">
+                                                        <a href="https://docs.google.com/videos/d/1w6y3WqReod58VFuTW1IttzYwJ0zcQ3jg4vIWQfyVSMg/play?usp=sharing" class="effect-ajax init-color" target="_blank">Talking-Head <br> Product Review <span class="fw-200">© 2025</span></a>
+                                                    </h2>
+                                                </div>
+
+                                                <a href="https://docs.google.com/videos/d/1w6y3WqReod58VFuTW1IttzYwJ0zcQ3jg4vIWQfyVSMg/play?usp=sharing" class="dsn-btn dsn-btn-shape effect-ajax d-flex align-items-end mr-20" target="_blank">
+                                                    <span class="icon background-section v-light">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                                            <path d="M328 96h24v288h-48V177.9L81 401l-17 17-33.9-34 17-17 223-223H64V96h264z"></path>
+                                                        </svg>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </article>
+
+                                    <!-- Item 5: Fabric Advertisement -->
+                                    <article class="dsn-item-post grid-item over-hidden p-relative brand sports">
+                                        <div class="box-image-bg has-border-radius w-100 h-350 over-hidden before-z-index">
+                                            <div class="cat background-main d-flex p-absolute top-0 right-0">
+                                                <svg class="top-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve">
+                                                    <path d="M98.1 0h1.9v51.9h-1.9c0-27.6-22.4-50-50-50V0h50z"></path>
+                                                </svg>
+                                                <svg class="bottom-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve">
+                                                    <path d="M98.1 0h1.9v51.9h-1.9c0-27.6-22.4-50-50-50V0h50z"></path>
+                                                </svg>
+                                                <span class="background-section heading-color">2025</span>
+                                            </div>
+                                            <a href="https://drive.google.com/file/d/1MzHgvpyuau4e6iEWMpurxITcptS7XCGJ/view?usp=sharing" class="play-btn-wrapper" target="_blank">
+                                                <img src="assets/img/thumbnails/4.jpg" class="cover-bg-img" alt="Perfume ad" />
+                                                <div class="play-button">
+                                                    <div class="play-icon">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="36px" height="36px">
+                                                            <path d="M8 5v14l11-7z" />
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="post-content mt-20 p-relative z-index-1 d-flex flex-column">
+                                            <div class="post-info d-flex justify-content-between">
+                                                <div>
+                                                    <div class="cat d-flex p-0 mb-5">
+                                                        <span class="background-section heading-color">Short-form</span>
+                                                        <span class="background-section heading-color">UGC/DTC</span>
+                                                        <span class="background-section heading-color">Danish</span>
+                                                    </div>
+                                                    <h2 class="post-title word-wrap d-inline-block title-block">
+                                                        <a href="https://www.youtube.com/watch?v=aqz-KE-bpKQ" class="effect-ajax init-color" target="_blank">Fabric Advertisement <span class="fw-200">© 2025</span></a>
+                                                    </h2>
+                                                </div>
+
+                                                <a href="https://www.youtube.com/watch?v=aqz-KE-bpKQ" class="dsn-btn dsn-btn-shape effect-ajax d-flex align-items-end mr-20" target="_blank">
+                                                    <span class="icon background-section v-light">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                                            <path d="M328 96h24v288h-48V177.9L81 401l-17 17-33.9-34 17-17 223-223H64V96h264z"></path>
+                                                        </svg>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </article>
+
+                                    <!-- Item 6: Cafe AI Ad -->
+                                    <article class="dsn-item-post grid-item over-hidden p-relative brand sports">
+                                        <div class="box-image-bg has-border-radius w-100 h-500 over-hidden before-z-index">
+                                            <div class="cat background-main d-flex p-absolute top-0 right-0">
+                                                <svg class="top-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve">
+                                                    <path d="M98.1 0h1.9v51.9h-1.9c0-27.6-22.4-50-50-50V0h50z"></path>
+                                                </svg>
+                                                <svg class="bottom-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve">
+                                                    <path d="M98.1 0h1.9v51.9h-1.9c0-27.6-22.4-50-50-50V0h50z"></path>
+                                                </svg>
+                                                <span class="background-section heading-color">2025</span>
+                                            </div>
+                                            <a href="https://drive.google.com/file/d/1XGrrw4KC0eX3sNomG-3_aR92mDtmvxSX/view?usp=drive_link" class="play-btn-wrapper" target="_blank">
+                                                <img src="assets/img/thumbnails/9.jpg" class="cover-bg-img" alt="Costa Coffee Ai ad" />
+                                                <div class="play-button">
+                                                    <div class="play-icon">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="36px" height="36px">
+                                                            <path d="M8 5v14l11-7z" />
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="post-content mt-20 p-relative z-index-1 d-flex flex-column">
+                                            <div class="post-info d-flex justify-content-between">
+                                                <div>
+                                                    <div class="cat d-flex p-0 mb-5">
+                                                        <span class="background-section heading-color">Food & Beverage</span>
+                                                        <span class="background-section heading-color">AI Influencer Review</span>
+                                                    </div>
+                                                    <h2 class="post-title word-wrap d-inline-block title-block">
+                                                        <a href="https://drive.google.com/file/d/1XGrrw4KC0eX3sNomG-3_aR92mDtmvxSX/view?usp=drive_link" class="effect-ajax init-color" target="_blank">Cafe<br>Ai ad <span class="fw-200">© 2025</span></a>
+                                                    </h2>
+                                                </div>
+
+                                                <a href="https://drive.google.com/file/d/1XGrrw4KC0eX3sNomG-3_aR92mDtmvxSX/view?usp=drive_link" class="dsn-btn dsn-btn-shape effect-ajax d-flex align-items-end mr-20" target="_blank">
+                                                    <span class="icon background-section v-light">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                                            <path d="M328 96h24v288h-48V177.9L81 401l-17 17-33.9-34 17-17 223-223H64V96h264z"></path>
+                                                        </svg>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </article>
+
+                                    <!-- Item 7: Mr.Beast Podcast -->
+                                    <article class="dsn-item-post grid-item over-hidden p-relative fashion">
+                                        <div class="box-image-bg has-border-radius w-100 h-500 over-hidden before-z-index">
+                                            <div class="cat background-main d-flex p-absolute top-0 right-0">
+                                                <svg class="top-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve">
+                                                    <path d="M98.1 0h1.9v51.9h-1.9c0-27.6-22.4-50-50-50V0h50z"></path>
+                                                </svg>
+                                                <svg class="bottom-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve">
+                                                    <path d="M98.1 0h1.9v51.9h-1.9c0-27.6-22.4-50-50-50V0h50z"></path>
+                                                </svg>
+                                                <span class="background-section heading-color">2025</span>
+                                            </div>
+                                            <a href="https://drive.google.com/file/d/1l2cxBQhcVnhLu1eMf3fCLXWpwNeC0MxL/view?usp=sharing" class="play-btn-wrapper" target="_blank">
+                                                <img src="assets/img/thumbnails/22.png" class="cover-bg-img" alt="Ghibli Art Animation" />
+                                                <div class="play-button">
+                                                    <div class="play-icon">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="36px" height="36px">
+                                                            <path d="M8 5v14l11-7z" />
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="post-content mt-20 p-relative z-index-1 d-flex flex-column">
+                                            <div class="post-info d-flex justify-content-between">
+                                                <div>
+                                                    <div class="cat d-flex p-0 mb-5">
+                                                        <span class="background-section heading-color">Podcast</span>
+                                                        <span class="background-section heading-color">Short form</span>
+                                                    </div>
+                                                    <h2 class="post-title word-wrap d-inline-block title-block">
+                                                        <a href="https://drive.google.com/file/d/1l2cxBQhcVnhLu1eMf3fCLXWpwNeC0MxL/view?usp=sharing" class="effect-ajax init-color" target="_blank">Mr.Beast<br>Podcast <span class="fw-200">© 2025</span></a>
+                                                    </h2>
+                                                </div>
+
+                                                <a href="https://drive.google.com/file/d/1l2cxBQhcVnhLu1eMf3fCLXWpwNeC0MxL/view?usp=sharing" class="dsn-btn dsn-btn-shape effect-ajax d-flex align-items-end mr-20" target="_blank">
+                                                    <span class="icon background-section v-light">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                                            <path d="M328 96h24v288h-48V177.9L81 401l-17 17-33.9-34 17-17 223-223H64V96h264z"></path>
+                                                        </svg>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </article>
+
+                                    <!-- Item 8: SkinCare Ad -->
+                                    <article class="dsn-item-post grid-item over-hidden p-relative brand photography">
+                                        <div class="box-image-bg has-border-radius w-100 h-500 over-hidden before-z-index">
+                                            <div class="cat background-main d-flex p-absolute top-0 right-0">
+                                                <svg class="top-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve">
+                                                    <path d="M98.1 0h1.9v51.9h-1.9c0-27.6-22.4-50-50-50V0h50z"></path>
+                                                </svg>
+                                                <svg class="bottom-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve">
+                                                    <path d="M98.1 0h1.9v51.9h-1.9c0-27.6-22.4-50-50-50V0h50z"></path>
+                                                </svg>
+                                                <span class="background-section heading-color">2025</span>
+                                            </div>
+                                            <a href="https://drive.google.com/file/d/17jFoPBdo15Xg5MdTeANULzQnZXxWi9rd/view?usp=sharing" class="play-btn-wrapper" target="_blank">
+                                                <img src="assets/img/thumbnails/6.jpg" class="cover-bg-img" alt="Chocolate World" />
+                                                <div class="play-button">
+                                                    <div class="play-icon">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="36px" height="36px">
+                                                            <path d="M8 5v14l11-7z" />
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="post-content mt-20 p-relative z-index-1 d-flex flex-column">
+                                            <div class="post-info d-flex justify-content-between">
+                                                <div>
+                                                    <div class="cat d-flex p-0 mb-5">
+                                                        <span class="background-section heading-color">SkinCare</span>
+                                                        <span class="background-section heading-color">Advertising</span>
+                                                    </div>
+                                                    <h2 class="post-title word-wrap d-inline-block title-block">
+                                                        <a href="https://www.youtube.com/watch?v=ysz5S6PUM-U" class="effect-ajax init-color" target="_blank">SkinCare<br>Ad <span class="fw-200">© 2025</span></a>
+                                                    </h2>
+                                                </div>
+
+                                                <a href="https://www.youtube.com/watch?v=ysz5S6PUM-U" class="dsn-btn dsn-btn-shape effect-ajax d-flex align-items-end mr-20" target="_blank">
+                                                    <span class="icon background-section v-light">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                                            <path d="M328 96h24v288h-48V177.9L81 401l-17 17-33.9-34 17-17 223-223H64V96h264z"></path>
+                                                        </svg>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </article>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- ========== End Portfolio ========== -->
+
+                <div class="text-center mb-50">
+                    <div class="dsn-btn dsn-btn-shape d-inline-flex mt-50">
+                        <a class="button background-main v-light" href="https://www.instagram.com/jyelly22/" target="_blank">
+                            <span class="title-btn p-relative z-index-1 heading-color" data-animate-text="Instagram!">
+                                <span>Check More on Instagram!</span>
+                            </span>
+                            <span class="icon background-main v-light">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                    <path d="M328 96h24v288h-48V177.9L81 401l-17 17-33.9-34 17-17 223-223H64V96h264z"/>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+                <section id="contactJumpTop" class="next-page v-dark pt-section pb-50">
+                    <div class="container">
+                        <div class="tob-box d-flex justify-content-between align-items-end border-bottom pb-50 mb-50">
+                            <h2 class="title text-upper">time to <br> roar! </h2>
+
+                            <div class="dsn-btn dsn-btn-shape d-flex">
+                                <a class="button background-main v-light effect-ajax" href="mailto:jannnorielbarayuga@gmail.com">
+                                    <span class="title-btn p-relative z-index-1 heading-color" data-animate-text="Let's talk!">
+                                        <span>Let's talk!</span>
+                                    </span>
+                                </a>
+                                <span class="icon background-main v-light">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                        <path d="M328 96h24v288h-48V177.9L81 401l-17 17-33.9-34 17-17 223-223H64V96h264z"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container over-hidden">
+                        <div class="bottom-box">
+                            <div class="d-flex gap-10 justify-content-between flex-wrap">
+                                <div class="info-item">
+                                    <h6 class="mb-10">Email Address</h6>
+                                    <a class="text-upper" href="mailto:jannnorielbarayuga@gmail.com">jannnorielbarayuga@gmail.com</a>
+                                </div>
+
+                                <div class="info-item">
+                                    <h6 class="mb-10">Call Info</h6>
+                                    <a class="text-upper" href="tel:+639933747287">WhatsApp: +63 993 374 7287</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <footer class="footer-personal v-light mt-50">
+                            <div class="d-grid grid-md-3 align-items-center">
+                                <div class="links">
+                                    <ul class="d-flex">
+                                        <li><a href="index.html">HOME</a></li>
+                                        <li><a href="about.html">ABOUT</a></li>
+                                        <li><a href="work.html">WORKS</a></li>
+                                        <li><a href="contact.html">CONTACT</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="dsn-logo main-logo d-flex align-items-center justify-content-center">
+                                    <div class="main-logo">
+                                        <a href="index.html" class="custom-logo-link main-brand" style="font-family: 'Antonio', sans-serif; font-size: 20px; font-weight: 700; color: #000; letter-spacing: 2px; text-decoration: none; text-transform: uppercase;">
+                                            MY PORTFOLIO
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div class="copyright">
+                                    <p class="over-hidden" style="font-family: 'Poppins', sans-serif; font-size: 13px; color: #666;">
+                                        © MY PORTFOLIO. Designed by 
+                                        <a href="https://t.me/HPCEditz" class="link-hover" data-hover-text="Jann Noriel Barayuga" target="_blank">@HPCEditz</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </footer>
+                    </div>
+                </section>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- ========== Cursor ========== -->
+    <div id="dsn_cursor" class="ball"></div>
+    <div id="dsn_cursor_inner" class="ball"></div>
+    <!-- ========== End Cursor ========== -->
+
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/plugins.min.js"></script>
+    <script src="assets/js/plugins/dsn-grid.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const options = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.2
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                    } else {
+                        entry.target.classList.remove('active');
+                    }
+                });
+            }, options);
+
+            const fadeElements = document.querySelectorAll('.dsn-fade');
+            fadeElements.forEach(el => {
+                observer.observe(el);
+            });
+        });
+    </script>
+</body>
+
+</html>

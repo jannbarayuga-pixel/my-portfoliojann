@@ -1,0 +1,119 @@
+/* Custom Scrollbar Styles */
+.custom-scrollbar {
+    position: fixed;
+    top: 0;
+    right: 10px;
+    width: 8px;
+    height: 100%;
+    background-color: rgba(255, 136, 0, 0);
+    border-radius: 10px;
+    z-index: 9999;
+    pointer-events: auto;
+    transition: opacity 0.3s ease;
+}
+
+.custom-scrollbar__thumb {
+    position: absolute;
+    top: 0;
+    right: 0; /* Aligns thumb to the right */
+    width: 5px;
+    background-color: rgba(0, 255, 255, 0.74);
+    border-radius: 4px;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: opacity 0.3s ease, background-color 0.3s ease, width 0.3s ease;
+}
+
+.custom-scrollbar__thumb:hover,
+.custom-scrollbar__thumb.active {
+    opacity: 1;
+    width: 12px;
+    background-color: rgb(0, 255, 221);
+    border-radius: 10px;
+    /* Stays aligned to the right */
+}
+
+
+/* Make sure all fixed elements appear above content */
+.site-header,
+.header-top,
+.dsn-nav-bar,
+.contact-modal,
+.site-footer,
+#dsn_cursor,
+.scroll-to-top {
+    z-index: 9999;
+}
+
+@media (max-width: 991px) {
+    .custom-scrollbar {
+        right: 5px;
+        width: 6px;
+    }
+}
+
+/* Hide scrollbar on small screens/mobile */
+@media (max-width: 767px) {
+    .custom-scrollbar {
+        display: none !important;
+    }
+}
+
+/* Smooth Scroll Styles */
+html.has-smooth-scroll,
+html.has-smooth-scroll body {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+}
+
+.smooth-scroll-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    z-index: 1;
+    pointer-events: auto;
+}
+
+.smooth-scroll-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    will-change: transform;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+/* Hide default scrollbar */
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+/* For Firefox */
+html {
+    scrollbar-width: none;
+}
+
+/* For IE and Edge */
+body {
+    -ms-overflow-style: none;
+}
+
+/* Make sure elements like menus and overlays appear above the smooth scroll content */
+#dsn_preloader,
+#dsn_cursor, 
+#dsn_cursor_inner,
+.custom-scrollbar,
+.site-menu,
+.site-header,
+#navbar_toggle,
+.modal,
+.popup,
+.overlay {
+    z-index: 9999 !important;
+} 
