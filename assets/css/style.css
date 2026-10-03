@@ -9218,3 +9218,27 @@ body.tax-product_cat #dsn_header {
     padding-right: 15px !important;
   }
 }
+/* ==========================================
+   MOBILE FIXES PARA SA FOOTER AT CARDS
+   ========================================== */
+
+   @media screen and (max-width: 768px) {
+    /* Siguraduhing tuloy-tuloy ang scroll at hindi napupuputol ang page sa baba */
+    html, body {
+      height: auto !important;
+      min-height: 100% !important;
+      overflow-x: hidden !important;
+      overflow-y: auto !important;
+    }
+  
+    /* Naglagay ng 60px allowance sa ibaba para hindi kainin ng address bar ng Chrome/Safari */
+    body, .footer, footer, #footer {
+      padding-bottom: 60px !important;
+    }
+  
+    /* Tinanggal ang fixed height sa mga card para mag-adjust base sa screen size ng phone */
+    .my-portfolio-card, .footer-card, .container {
+      height: auto !important;
+      max-height: none !important;
+    }
+  }
